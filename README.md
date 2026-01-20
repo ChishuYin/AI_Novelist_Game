@@ -41,7 +41,7 @@ def generate(text, max_tokens=50):
 
 # Example usage
 if __name__ == "__main__":
-    prompt = "她站在桥头，望着雨雾中的城墙，心里忽然泛起一种奇怪的情绪。"
+    prompt = "她站在桥头，望着城墙，心里感到奇怪。"
     output = generate(prompt)
     print("📜 Output:\n", output)
 
